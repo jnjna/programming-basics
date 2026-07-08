@@ -4,7 +4,7 @@ A collection of projects built while learning systems programming, C, and softwa
 
 ## Projects
 
-- ✅ String Library
+- String Library
   - Custom `strlen()`
 
 ## Upcoming
