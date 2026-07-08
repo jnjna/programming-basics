@@ -1,4 +1,4 @@
-# Day 1 – Custom String Length Library
+# Custom String Length Library
 
 ## Goal
 Implement my own version of C's strlen() without using the standard library.
