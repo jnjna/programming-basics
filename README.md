@@ -1,27 +1,18 @@
-# Custom String Length Library
+# Programming Basics
 
-## Goal
-Implement my own version of C's strlen() without using the standard library.
+A collection of projects built while learning systems programming, C, and software engineering.
 
-## Concepts Learned
-- Header files
-- Include guards
-- Multiple source files
-- Strings
-- Null terminator
-- Loops
-- GCC compilation
-- Git
+## Projects
 
-## Files
-include/mystring.h
-src/mystring.c
-src/main.c
+- ✅ String Library
+  - Custom `strlen()`
 
-## Build
+## Upcoming
 
-gcc src/main.c src/mystring.c -Iinclude -o mystring
-
-## Run
-
-./mystring
+- String Copy
+- String Compare
+- Memory Copy
+- Dynamic Array
+- Stack
+- Queue
+- Linked List

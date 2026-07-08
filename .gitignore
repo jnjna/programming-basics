@@ -1,4 +1,4 @@
-mystring
+*/mystring
 *.o
 build/
 .vscode/
