@@ -1,0 +1,4 @@
+mystring
+*.o
+build/
+.vscode/
