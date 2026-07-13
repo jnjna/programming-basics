@@ -1,8 +1,9 @@
 #include "mystring.h"
-int my_strlen(const char *word){
-    int i=0;
-    while (word[i]!='\0'){
+int my_strlen(const char *str){
+    int i = 0;
+    while (*str!='\0'){
         i++;
+        str++;
     }
     return i;
 }
