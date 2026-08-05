@@ -153,6 +153,8 @@ Execution immediately jumps to the loop condition, then begins the next iteratio
 * Converting integers to floating-point values with type casting.
 * Using `continue` to control loop execution.
 
+---
+
 ## Possible Improvements
 
 * Move each operation into its own function.

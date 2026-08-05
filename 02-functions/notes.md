@@ -92,7 +92,7 @@ When the function is called:
 subtract(10, 4);
 ```
 
-the values `10` and `4` are copied into the parameters.
+The values `10` and `4` are copied into the parameters.
 
 ---
 
@@ -131,7 +131,7 @@ The `void` return type indicates that no value is returned.
 
 Instead of one large function, the calculator is organized into several smaller functions.
 
-```
+```text
 main()
 │
 ├── displayMenu()
