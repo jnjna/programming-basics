@@ -13,19 +13,19 @@ int main()
     struct Student student;
 
     strcpy(student.name, "Justin");
-    student.age = 12;
+    student.age = 20;
     student.gpa = 3.10;
 
     struct Student *ptr = &student;
 
-    printf("Name = %s\n", ptr->name);
-    printf("Age = %d\n", ptr->age);
-    printf("GPA = %.2f\n", ptr->gpa);
+    printf("Name: %s\n", ptr->name);
+    printf("Age: %d\n", ptr->age);
+    printf("GPA: %.2f\n", ptr->gpa);
 
     ptr->age = 22;
-    printf("Edited Age = %d\n", ptr->age);
 
-    printf("Edited Age using original structure = %d\n", student.age);
+    printf("\nEdited age using pointer: %d\n", ptr->age);
+    printf("Edited age using structure: %d\n", student.age);
 
     return 0;
 }
